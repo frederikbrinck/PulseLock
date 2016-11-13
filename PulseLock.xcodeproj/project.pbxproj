@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B11629081DD7A65900A3F223 /* Overlay.m in Sources */ = {isa = PBXBuildFile; fileRef = B11629071DD7A65900A3F223 /* Overlay.m */; };
+		B11629101DD7B3FA00A3F223 /* Preferences.m in Sources */ = {isa = PBXBuildFile; fileRef = B116290F1DD7B3FA00A3F223 /* Preferences.m */; };
+		B11629141DD7B76500A3F223 /* IntervalSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = B11629131DD7B76500A3F223 /* IntervalSlider.m */; };
+		B11D12B51DD7A1A1000B4C16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B11D12B41DD7A1A1000B4C16 /* AppDelegate.m */; };
+		B11D12B71DD7A1A1000B4C16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B11D12B61DD7A1A1000B4C16 /* main.m */; };
+		B11D12B91DD7A1A1000B4C16 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B11D12B81DD7A1A1000B4C16 /* Images.xcassets */; };
+		B11D12BC1DD7A1A1000B4C16 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B11D12BA1DD7A1A1000B4C16 /* MainMenu.xib */; };
+		B11D12C81DD7A1A1000B4C16 /* PulseLockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B11D12C71DD7A1A1000B4C16 /* PulseLockTests.m */; };
+		B11D12D31DD7A27C000B4C16 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = B11D12D21DD7A27C000B4C16 /* View.m */; };
+		B141042D1DD82D2900B99225 /* applogo.png in Resources */ = {isa = PBXBuildFile; fileRef = B141042C1DD82D2900B99225 /* applogo.png */; };
+		B14104301DD82E9300B99225 /* statuslogo.png in Resources */ = {isa = PBXBuildFile; fileRef = B141042F1DD82E9300B99225 /* statuslogo.png */; };
+		B14104321DD8300300B99225 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B14104311DD8300300B99225 /* logo.png */; };
+		B19CD6B51DD809FB00090465 /* ORSSerial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19CD6B01DD8099900090465 /* ORSSerial.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B11D12C21DD7A1A1000B4C16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B11D12A61DD7A1A1000B4C16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B11D12AD1DD7A1A1000B4C16;
+			remoteInfo = Stetholock;
+		};
+		B19CD6AF1DD8099900090465 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B19CD6AA1DD8099800090465 /* ORSSerialPort.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9DCA89121A2BB106009285EB;
+			remoteInfo = ORSSerial;
+		};
+		B19CD6B11DD8099900090465 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B19CD6AA1DD8099800090465 /* ORSSerialPort.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9D7472131B6D7767002D8B10;
+			remoteInfo = "ORSSerialPort Tests";
+		};
+		B19CD6B31DD809D900090465 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B19CD6AA1DD8099800090465 /* ORSSerialPort.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DCA89111A2BB106009285EB;
+			remoteInfo = ORSSerial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B11629061DD7A65900A3F223 /* Overlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Overlay.h; sourceTree = "<group>"; };
+		B11629071DD7A65900A3F223 /* Overlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Overlay.m; sourceTree = "<group>"; };
+		B116290E1DD7B3FA00A3F223 /* Preferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Preferences.h; sourceTree = "<group>"; };
+		B116290F1DD7B3FA00A3F223 /* Preferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Preferences.m; sourceTree = "<group>"; };
+		B11629121DD7B76500A3F223 /* IntervalSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntervalSlider.h; sourceTree = "<group>"; };
+		B11629131DD7B76500A3F223 /* IntervalSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntervalSlider.m; sourceTree = "<group>"; };
+		B11D12AE1DD7A1A1000B4C16 /* PulseLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11D12B21DD7A1A1000B4C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B11D12B31DD7A1A1000B4C16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B11D12B41DD7A1A1000B4C16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B11D12B61DD7A1A1000B4C16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B11D12B81DD7A1A1000B4C16 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B11D12BB1DD7A1A1000B4C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B11D12C11DD7A1A1000B4C16 /* PulseLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulseLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11D12C61DD7A1A1000B4C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B11D12C71DD7A1A1000B4C16 /* PulseLockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PulseLockTests.m; sourceTree = "<group>"; };
+		B11D12D11DD7A27C000B4C16 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		B11D12D21DD7A27C000B4C16 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		B141042C1DD82D2900B99225 /* applogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = applogo.png; path = Images.xcassets/applogo.png; sourceTree = "<group>"; };
+		B141042F1DD82E9300B99225 /* statuslogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statuslogo.png; sourceTree = "<group>"; };
+		B14104311DD8300300B99225 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Images.xcassets/logo.png; sourceTree = "<group>"; };
+		B19CD6AA1DD8099800090465 /* ORSSerialPort.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ORSSerialPort.xcodeproj; path = "Frameworks/ORSSerialPort/Framework Project/ORSSerialPort.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B11D12AB1DD7A1A1000B4C16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19CD6B51DD809FB00090465 /* ORSSerial.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11D12BE1DD7A1A1000B4C16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B116290D1DD7ABE800A3F223 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B14104311DD8300300B99225 /* logo.png */,
+				B141042F1DD82E9300B99225 /* statuslogo.png */,
+				B141042C1DD82D2900B99225 /* applogo.png */,
+				B11629121DD7B76500A3F223 /* IntervalSlider.h */,
+				B11629131DD7B76500A3F223 /* IntervalSlider.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		B11D12A51DD7A1A1000B4C16 = {
+			isa = PBXGroup;
+			children = (
+				B11D12B01DD7A1A1000B4C16 /* Source */,
+				B11D12C41DD7A1A1000B4C16 /* Tests */,
+				B11D12AF1DD7A1A1000B4C16 /* Products */,
+				B19CD6AA1DD8099800090465 /* ORSSerialPort.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		B11D12AF1DD7A1A1000B4C16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B11D12AE1DD7A1A1000B4C16 /* PulseLock.app */,
+				B11D12C11DD7A1A1000B4C16 /* PulseLockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B11D12B01DD7A1A1000B4C16 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B11D12B31DD7A1A1000B4C16 /* AppDelegate.h */,
+				B11D12B41DD7A1A1000B4C16 /* AppDelegate.m */,
+				B11D12D11DD7A27C000B4C16 /* View.h */,
+				B11D12D21DD7A27C000B4C16 /* View.m */,
+				B11629061DD7A65900A3F223 /* Overlay.h */,
+				B11629071DD7A65900A3F223 /* Overlay.m */,
+				B116290E1DD7B3FA00A3F223 /* Preferences.h */,
+				B116290F1DD7B3FA00A3F223 /* Preferences.m */,
+				B11D12B81DD7A1A1000B4C16 /* Images.xcassets */,
+				B11D12BA1DD7A1A1000B4C16 /* MainMenu.xib */,
+				B116290D1DD7ABE800A3F223 /* UI */,
+				B11D12B11DD7A1A1000B4C16 /* Supporting Files */,
+			);
+			name = Source;
+			path = Stetholock;
+			sourceTree = "<group>";
+		};
+		B11D12B11DD7A1A1000B4C16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B11D12B21DD7A1A1000B4C16 /* Info.plist */,
+				B11D12B61DD7A1A1000B4C16 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B11D12C41DD7A1A1000B4C16 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B11D12C71DD7A1A1000B4C16 /* PulseLockTests.m */,
+				B11D12C51DD7A1A1000B4C16 /* Supporting Files */,
+			);
+			name = Tests;
+			path = StetholockTests;
+			sourceTree = "<group>";
+		};
+		B11D12C51DD7A1A1000B4C16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B11D12C61DD7A1A1000B4C16 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B19CD6AB1DD8099800090465 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B19CD6B01DD8099900090465 /* ORSSerial.framework */,
+				B19CD6B21DD8099900090465 /* ORSSerialPort Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B11D12AD1DD7A1A1000B4C16 /* PulseLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B11D12CB1DD7A1A1000B4C16 /* Build configuration list for PBXNativeTarget "PulseLock" */;
+			buildPhases = (
+				B11D12AA1DD7A1A1000B4C16 /* Sources */,
+				B11D12AB1DD7A1A1000B4C16 /* Frameworks */,
+				B11D12AC1DD7A1A1000B4C16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B19CD6B41DD809D900090465 /* PBXTargetDependency */,
+			);
+			name = PulseLock;
+			productName = Stetholock;
+			productReference = B11D12AE1DD7A1A1000B4C16 /* PulseLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B11D12C01DD7A1A1000B4C16 /* PulseLockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B11D12CE1DD7A1A1000B4C16 /* Build configuration list for PBXNativeTarget "PulseLockTests" */;
+			buildPhases = (
+				B11D12BD1DD7A1A1000B4C16 /* Sources */,
+				B11D12BE1DD7A1A1000B4C16 /* Frameworks */,
+				B11D12BF1DD7A1A1000B4C16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B11D12C31DD7A1A1000B4C16 /* PBXTargetDependency */,
+			);
+			name = PulseLockTests;
+			productName = StetholockTests;
+			productReference = B11D12C11DD7A1A1000B4C16 /* PulseLockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B11D12A61DD7A1A1000B4C16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Brinck10;
+				TargetAttributes = {
+					B11D12AD1DD7A1A1000B4C16 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					B11D12C01DD7A1A1000B4C16 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = B11D12AD1DD7A1A1000B4C16;
+					};
+				};
+			};
+			buildConfigurationList = B11D12A91DD7A1A1000B4C16 /* Build configuration list for PBXProject "PulseLock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B11D12A51DD7A1A1000B4C16;
+			productRefGroup = B11D12AF1DD7A1A1000B4C16 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B19CD6AB1DD8099800090465 /* Products */;
+					ProjectRef = B19CD6AA1DD8099800090465 /* ORSSerialPort.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B11D12AD1DD7A1A1000B4C16 /* PulseLock */,
+				B11D12C01DD7A1A1000B4C16 /* PulseLockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B19CD6B01DD8099900090465 /* ORSSerial.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ORSSerial.framework;
+			remoteRef = B19CD6AF1DD8099900090465 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B19CD6B21DD8099900090465 /* ORSSerialPort Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ORSSerialPort Tests.xctest";
+			remoteRef = B19CD6B11DD8099900090465 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B11D12AC1DD7A1A1000B4C16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14104301DD82E9300B99225 /* statuslogo.png in Resources */,
+				B14104321DD8300300B99225 /* logo.png in Resources */,
+				B11D12B91DD7A1A1000B4C16 /* Images.xcassets in Resources */,
+				B11D12BC1DD7A1A1000B4C16 /* MainMenu.xib in Resources */,
+				B141042D1DD82D2900B99225 /* applogo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11D12BF1DD7A1A1000B4C16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B11D12AA1DD7A1A1000B4C16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11629101DD7B3FA00A3F223 /* Preferences.m in Sources */,
+				B11D12B71DD7A1A1000B4C16 /* main.m in Sources */,
+				B11D12B51DD7A1A1000B4C16 /* AppDelegate.m in Sources */,
+				B11D12D31DD7A27C000B4C16 /* View.m in Sources */,
+				B11629081DD7A65900A3F223 /* Overlay.m in Sources */,
+				B11629141DD7B76500A3F223 /* IntervalSlider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11D12BD1DD7A1A1000B4C16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11D12C81DD7A1A1000B4C16 /* PulseLockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B11D12C31DD7A1A1000B4C16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B11D12AD1DD7A1A1000B4C16 /* PulseLock */;
+			targetProxy = B11D12C21DD7A1A1000B4C16 /* PBXContainerItemProxy */;
+		};
+		B19CD6B41DD809D900090465 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ORSSerial;
+			targetProxy = B19CD6B31DD809D900090465 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B11D12BA1DD7A1A1000B4C16 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B11D12BB1DD7A1A1000B4C16 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B11D12C91DD7A1A1000B4C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B11D12CA1DD7A1A1000B4C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B11D12CC1DD7A1A1000B4C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Stetholock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B11D12CD1DD7A1A1000B4C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Stetholock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B11D12CF1DD7A1A1000B4C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StetholockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stetholock.app/Contents/MacOS/Stetholock";
+			};
+			name = Debug;
+		};
+		B11D12D01DD7A1A1000B4C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StetholockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stetholock.app/Contents/MacOS/Stetholock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B11D12A91DD7A1A1000B4C16 /* Build configuration list for PBXProject "PulseLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11D12C91DD7A1A1000B4C16 /* Debug */,
+				B11D12CA1DD7A1A1000B4C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B11D12CB1DD7A1A1000B4C16 /* Build configuration list for PBXNativeTarget "PulseLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11D12CC1DD7A1A1000B4C16 /* Debug */,
+				B11D12CD1DD7A1A1000B4C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B11D12CE1DD7A1A1000B4C16 /* Build configuration list for PBXNativeTarget "PulseLockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11D12CF1DD7A1A1000B4C16 /* Debug */,
+				B11D12D01DD7A1A1000B4C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B11D12A61DD7A1A1000B4C16 /* Project object */;
+}
