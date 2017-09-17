@@ -145,7 +145,7 @@
 				B11D12B11DD7A1A1000B4C16 /* Supporting Files */,
 			);
 			name = Source;
-			path = Stetholock;
+			path = PulseLock;
 			sourceTree = "<group>";
 		};
 		B11D12B11DD7A1A1000B4C16 /* Supporting Files */ = {
@@ -164,7 +164,7 @@
 				B11D12C51DD7A1A1000B4C16 /* Supporting Files */,
 			);
 			name = Tests;
-			path = StetholockTests;
+			path = PulseLockTest;
 			sourceTree = "<group>";
 		};
 		B11D12C51DD7A1A1000B4C16 /* Supporting Files */ = {
@@ -438,7 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Stetholock/Info.plist;
+				INFOPLIST_FILE = PulseLock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -449,7 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Stetholock/Info.plist;
+				INFOPLIST_FILE = PulseLock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -468,7 +468,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = StetholockTests/Info.plist;
+				INFOPLIST_FILE = PulseLock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stetholock.app/Contents/MacOS/Stetholock";
@@ -484,7 +484,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = StetholockTests/Info.plist;
+				INFOPLIST_FILE = PulseLock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stetholock.app/Contents/MacOS/Stetholock";
